@@ -1,9 +1,9 @@
 # JSX Number Format
 This is a lightweight js number formatting library
 ## To install
- ##### _npm install jsx-number-format_
+ _npm install jsx-number-format_
  
- # Usage
+# Usage
  ```javascript
 const {NumberFormat} = require('jsx-number-format');
  let formattedNumber =NumberFormat(5000,2,',');
