@@ -1,4 +1,9 @@
 const NumberFormat =(number,decimals=2,delimiter=',') =>{
+    const permitted_delimeters = [','," "];
+
+    if (!permitted_delimeters.includes(delimiter)){
+        delimiter =",";//to cap when one uses the period(.) for delimiter
+    }
     if (typeof  number ==='undefined' || number === '' || isNaN(number)){
         number = "0";
     }

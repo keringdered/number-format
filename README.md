@@ -4,6 +4,14 @@ This is a lightweight js number formatting library
  _npm install jsx-number-format_
  
 # Usage
+- Syntax
+```javascript
+NumberFormat(float,decimal_places,thousand_seperater)
+```
+* Permitted thousand separators are :
+    * Comma(,)
+    * Space(" ")
+
  ```javascript
 const {NumberFormat} = require('jsx-number-format');
  let formattedNumber =NumberFormat(5000,2,',');
