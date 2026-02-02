@@ -1,0 +1,13 @@
+{
+    "name": "keringdered/jsx-number-format",
+    "description": "Light Weight Implementation of Number format",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kipngeno Kering",
+            "email": "kipngenokering@gmail.com"
+        }
+    ],
+    "require": {}
+}
